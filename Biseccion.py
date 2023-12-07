@@ -5,7 +5,7 @@ def calculate_error(xi, xt):
 
 
 def getrow(i, xi, xu, xt):
-    xr = round((xi + xu) / 2, 3)
+    xr = round((xi + xu) / 2, 8)
     fxi = round((xi ** 3) - (10 * xi) - 5, 8)
     fxr = round((xr ** 3) - (10 * xr) - 5, 8)
     fxifxr = round(fxi * fxr, 8)
