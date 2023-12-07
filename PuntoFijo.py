@@ -1,4 +1,4 @@
-def calculate_fx(xi):
+def calculate_gx(xi):
     return round((10 * xi + 5) ** (1 / 3), 8)
 
 
@@ -18,6 +18,7 @@ if __name__ == '__main__':
     x = 3.5
     temp = 0
     error = 0.000001
+    print('Metodo Punto Fijo f(x) = x^3-10x-5')
     print('i\t\txi\t\t\t\tError Relativo')
     while calculate_error(x, temp) > error:
         k += 1

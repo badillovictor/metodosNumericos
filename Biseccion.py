@@ -15,6 +15,7 @@ def getrow(i, xi, xu, xt):
 
 if __name__ == '__main__':
     # f(x) = x^3-10x-5
+    print('Metodo Biseccion f(x) = x^3-10x-5')
     table = [['i', 'xi', 'xu', 'xr','f(xi)', 'f(xr)', 'f(xi)f(xr)', 'error']]
     error = 0.000001
     i = 0
