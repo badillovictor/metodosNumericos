@@ -1,4 +1,4 @@
-def calculate_gx(xi):
+def calculate_fx(xi):
     return round((10 * xi + 5) ** (1 / 3), 8)
 
 
